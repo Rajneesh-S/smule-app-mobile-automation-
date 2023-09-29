@@ -58,7 +58,8 @@ exports.config = {
             "appium:platformVersion": "11.0",
             "appium:deviceName": "Pixel 3",
             "appium:automationName": "UiAutomator2",
-            "appium:app": "/Users/testvagrant-1/Documents/appium/app/android/smule-11-2-1.apk"
+            "appium:app": "/Users/testvagrant-1/Documents/appium/app/android/smule-11-2-1.apk",
+            "appium:autoGrantPermissions":'true',
           }
         
     ],
@@ -132,7 +133,13 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+    // reporters: ['spec',['allure', {outputDir: 'allure-results'}]],
+        reporters: ['spec',['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+        }]],
+    
 
     
     //

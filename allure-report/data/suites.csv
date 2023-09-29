@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 29 13:35:13 IST 2023","Fri Sep 29 13:35:18 IST 2023","4653","","login test","","","","should be get error when enter wrong password",""
+"passed","Fri Sep 29 13:35:08 IST 2023","Fri Sep 29 13:35:08 IST 2023","286","","login test","","","","should be able to go to  the login button by email ",""
+"passed","Fri Sep 29 13:35:18 IST 2023","Fri Sep 29 13:35:29 IST 2023","11345","","login test","","","","should be able to login by entering password",""
+"passed","Fri Sep 29 13:34:52 IST 2023","Fri Sep 29 13:35:08 IST 2023","16012","","login test","","","","should be able to open the app and select the language ",""
+"passed","Fri Sep 29 13:35:08 IST 2023","Fri Sep 29 13:35:13 IST 2023","5316","","login test","","","","should be able to enter the email and move to the password  ",""
