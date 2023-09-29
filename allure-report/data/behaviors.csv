@@ -1,2 +1,6 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
 "","login test","","0","0","5","0","0"
+"","profile test","","0","0","5","0","0"
+"","message test","","0","0","6","0","0"
+"","feed test","","0","0","6","0","0"
+"","singing test","","0","0","6","0","0"
